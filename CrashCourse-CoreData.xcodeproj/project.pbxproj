@@ -8,22 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		C321A00F1CC0E2CC0087626B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C321A00E1CC0E2CC0087626B /* AppDelegate.swift */; };
-		C321A0111CC0E2CC0087626B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C321A0101CC0E2CC0087626B /* ViewController.swift */; };
 		C321A0141CC0E2CC0087626B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C321A0121CC0E2CC0087626B /* Main.storyboard */; };
 		C321A0171CC0E2CC0087626B /* CrashCourse_CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C321A0151CC0E2CC0087626B /* CrashCourse_CoreData.xcdatamodeld */; };
 		C321A0191CC0E2CC0087626B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C321A0181CC0E2CC0087626B /* Assets.xcassets */; };
 		C321A01C1CC0E2CC0087626B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C321A01A1CC0E2CC0087626B /* LaunchScreen.storyboard */; };
+		C3A65A4B1CC117DD006F08B2 /* TaskListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A65A4A1CC117DD006F08B2 /* TaskListTVC.swift */; };
+		C3A65A511CC11ECD006F08B2 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A65A4D1CC11ECD006F08B2 /* Note.swift */; };
+		C3A65A531CC11ECD006F08B2 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A65A4F1CC11ECD006F08B2 /* Task.swift */; };
+		C3A65A551CC1269B006F08B2 /* TaskAddTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A65A541CC1269B006F08B2 /* TaskAddTVC.swift */; };
+		C3A65A571CC1480C006F08B2 /* NotesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A65A561CC1480C006F08B2 /* NotesTVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C321A00B1CC0E2CC0087626B /* CrashCourse-CoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CrashCourse-CoreData.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C321A00E1CC0E2CC0087626B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C321A0101CC0E2CC0087626B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C321A0131CC0E2CC0087626B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C321A0161CC0E2CC0087626B /* CrashCourse_CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CrashCourse_CoreData.xcdatamodel; sourceTree = "<group>"; };
 		C321A0181CC0E2CC0087626B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C321A01B1CC0E2CC0087626B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C321A01D1CC0E2CC0087626B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3A65A4A1CC117DD006F08B2 /* TaskListTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskListTVC.swift; sourceTree = "<group>"; };
+		C3A65A4D1CC11ECD006F08B2 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		C3A65A4F1CC11ECD006F08B2 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		C3A65A541CC1269B006F08B2 /* TaskAddTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskAddTVC.swift; sourceTree = "<group>"; };
+		C3A65A561CC1480C006F08B2 /* NotesTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesTVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,43 @@
 		C321A00D1CC0E2CC0087626B /* CrashCourse-CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				C3A65A491CC11784006F08B2 /* Model */,
+				C3A65A471CC1175B006F08B2 /* View Controllers */,
+				C3A65A481CC11766006F08B2 /* UI */,
 				C321A00E1CC0E2CC0087626B /* AppDelegate.swift */,
-				C321A0101CC0E2CC0087626B /* ViewController.swift */,
+				C321A01D1CC0E2CC0087626B /* Info.plist */,
+			);
+			path = "CrashCourse-CoreData";
+			sourceTree = "<group>";
+		};
+		C3A65A471CC1175B006F08B2 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C3A65A4A1CC117DD006F08B2 /* TaskListTVC.swift */,
+				C3A65A541CC1269B006F08B2 /* TaskAddTVC.swift */,
+				C3A65A561CC1480C006F08B2 /* NotesTVC.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		C3A65A481CC11766006F08B2 /* UI */ = {
+			isa = PBXGroup;
+			children = (
 				C321A0121CC0E2CC0087626B /* Main.storyboard */,
 				C321A0181CC0E2CC0087626B /* Assets.xcassets */,
 				C321A01A1CC0E2CC0087626B /* LaunchScreen.storyboard */,
-				C321A01D1CC0E2CC0087626B /* Info.plist */,
-				C321A0151CC0E2CC0087626B /* CrashCourse_CoreData.xcdatamodeld */,
 			);
-			path = "CrashCourse-CoreData";
+			name = UI;
+			sourceTree = "<group>";
+		};
+		C3A65A491CC11784006F08B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C321A0151CC0E2CC0087626B /* CrashCourse_CoreData.xcdatamodeld */,
+				C3A65A4D1CC11ECD006F08B2 /* Note.swift */,
+				C3A65A4F1CC11ECD006F08B2 /* Task.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +174,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C321A0111CC0E2CC0087626B /* ViewController.swift in Sources */,
+				C3A65A511CC11ECD006F08B2 /* Note.swift in Sources */,
+				C3A65A4B1CC117DD006F08B2 /* TaskListTVC.swift in Sources */,
 				C321A00F1CC0E2CC0087626B /* AppDelegate.swift in Sources */,
+				C3A65A551CC1269B006F08B2 /* TaskAddTVC.swift in Sources */,
+				C3A65A571CC1480C006F08B2 /* NotesTVC.swift in Sources */,
+				C3A65A531CC11ECD006F08B2 /* Task.swift in Sources */,
 				C321A0171CC0E2CC0087626B /* CrashCourse_CoreData.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,6 +332,7 @@
 				C321A0221CC0E2CC0087626B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
