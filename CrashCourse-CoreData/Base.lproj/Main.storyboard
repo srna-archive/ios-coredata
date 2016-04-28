@@ -8,7 +8,7 @@
         <!--Tasks-->
         <scene sceneID="sck-YV-eUA">
             <objects>
-                <tableViewController id="XJQ-Ld-qEc" customClass="TaskListTVC" customModule="CrashCourse_CoreData" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="XJQ-Ld-qEc" customClass="TaskListTVC" customModule="CC_CoreData" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="D6w-4o-oHF">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -62,7 +62,7 @@
         <!--Title-->
         <scene sceneID="cfN-Qc-YLZ">
             <objects>
-                <tableViewController id="bPt-aA-Ja7" customClass="NotesTVC" customModule="CrashCourse_CoreData" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="bPt-aA-Ja7" customClass="NotesTVC" customModule="CC_CoreData" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="xF0-7i-IuY">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -108,7 +108,7 @@
         <!--Add Task-->
         <scene sceneID="z7t-gd-acA">
             <objects>
-                <tableViewController id="gqR-yl-Sny" customClass="TaskAddTVC" customModule="CrashCourse_CoreData" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="gqR-yl-Sny" customClass="TaskAddTVC" customModule="CC_CoreData" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="0A6-4v-L1x">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
